@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snash Design</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f0f0f;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 40px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      color: #aaa;
+      margin-top: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #7c3aed;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #5b21b6;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: #222;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #111;
+      color: #777;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Snash Design</h1>
+  <p>Design moderno, estratégico e criativo</p>
+  <a href="#contato" class="btn">Fale comigo</a>
+</header>
+
+<section>
+  <h2>Sobre</h2>
+  <p>
+    Sou designer focado em identidade visual, branding e projetos digitais.
+    Meu objetivo é transformar ideias em experiências visuais fortes e profissionais.
+  </p>
+</section>
+
+<section>
+  <h2>Projetos</h2>
+
+  <div class="projects">
+    <div class="card">
+      <h3>Identidade Visual</h3>
+      <p>Criação de logo, paleta e aplicações para marcas.</p>
+    </div>
+
+    <div class="card">
+      <h3>Social Media</h3>
+      <p>Posts estratégicos para Instagram e campanhas digitais.</p>
+    </div>
+
+    <div class="card">
+      <h3>Landing Page</h3>
+      <p>Design moderno focado em conversão.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>Email: contato@snashdesign.com</p>
+  <p>Instagram: @snashdesign</p>
+</section>
+
+<footer>
+  © 2026 Snash Design — Todos os direitos reservados
+</footer>
+
+</body>
+</html>
